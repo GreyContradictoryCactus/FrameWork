@@ -1,0 +1,6 @@
+﻿框架名称：FrameWork_ASH
+版本：1.0.4
+作者：虚无之灰
+开源协议：MIT License
+第三方插件：SerializableDictionary，luban，EPPlus
+介绍：框架完善中......

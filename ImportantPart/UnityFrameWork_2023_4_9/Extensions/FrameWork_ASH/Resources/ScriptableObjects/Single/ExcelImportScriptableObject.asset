@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fe2b577b8ee877489cc6b484a913a4e, type: 3}
+  m_Name: ExcelImportScriptableObject
+  m_EditorClassIdentifier: 
+  printLog: 1
+  excelFilePath: C:/Users/Administrator/Desktop/excel/two.xlsx
+  excelFolderPath: C:/Users/Administrator/Desktop/excel
+  full_name: two.TbTwo
+  value_type: Two
+  defaultExcelTemporaryStoragePath: E:\game\FrameWork\Assets\Extensions\FrameWork_ASH\Plugins\cvs\Luban\Configs\Datas\TemporaryStorage
+  exportJsonPath: E:/game/FrameWork/Assets/Settings/Luban/Datas/Json
+  exportBinPath: E:/game/FrameWork/Assets/Dustbin
+  exportXmlPath: E:/game/FrameWork/Assets/Dustbin
+  exportScriptableObjectPath: 
+  exportCodePath: E:/game/FrameWork/Assets/Settings/Luban/Code
+  i: 4
+  excelImportList:
+    m_keys:
+    - C:/Users/Administrator/Desktop/excel/two.xlsx

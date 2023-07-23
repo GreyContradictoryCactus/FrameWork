@@ -1,0 +1,17 @@
+﻿更新时间：
+2023/3/11
+
+更新内容：
+1.修改了unity域重新加载导致垃圾回收记录重新初始化的问题，使用ScriptableObject，期间遇到了字典的序列化问题（本来用Odin直接解决），自己写了3小时的字典序列化（各种查），失败告终，最后找到unity商店的一个免费字典序列化插件，完成。（然后我半天没了，悲）
+2.ResourceManager中添加了载入ScriptableObject（单例/动态）的方法。
+3.新增SingleScriptableObjectManager类
+4.DeleteRecordWindow窗口允许自由缩放并加入滑动条
+
+碎碎念：
+1.本来今天是还要实现Excel自动读写生成ScriptableObject的(使用EPPlus)，但是写到这已经下午4点了，明天早上10点回学校，麻，还要匀出时间画画（还要就是字典序列化给我查吐了，我是垃圾）
+2.相关参考：https://blog.csdn.net/wuming2016/article/details/123205366 （用了这个，本来好像可以，但是用到一半又不行了，又自己改代码，失败，然后我选择免费插件）
+3.相关参考：https://blog.csdn.net/JianZuoGuang/article/details/102536605 （插件中文简单教程，用过都说好）
+4.都2023年了，别人插件2018就实现字典序列化了，unity你个**，还没实现字典序列化！！！
+5.好想用Odin啊，但是又想要保持自己框架完全免费（要么手敲，要么找免费插件）（要是用Odin今天省下至少3个小时）
+6.或者unity你把Odin收购了变成免费插件也行啊（）
+7.就这样吧，练线条去了
